@@ -26,7 +26,7 @@ EBNF:
 
 
 DFA:
-[DFA.png]
+(DFA.png)
 
 
 # Java
