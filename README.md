@@ -26,7 +26,8 @@ EBNF:
 
 
 DFA:
-![Image of Given DFA][DFA.png]
+<img src="https://raw.githubusercontent.com/isaac-ba/Lexical_Analyzer/master/DFA.png">
+<img src="https://github.com/isaac-ba/Lexical_Analyzer/blob/master/DFA.png">
 
 
 # Java
