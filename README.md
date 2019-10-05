@@ -26,8 +26,7 @@ EBNF:
 
 
 DFA:
-<p>
-  <img src="/Users/yitz/Desktop/Screen Shot 2019-10-04 at 8.47.25 AM.png" width="500" alt="accessibility text">
-</p>
+![alt text](/Users/yitz/Desktop/DFA.png)
+
 
 # Java
