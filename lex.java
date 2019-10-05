@@ -79,8 +79,9 @@ public class lex extends IO {
 	}
 	
 	private static State nextState(State s, char c){
+
 		switch (state) {
-			case Start: //7 options : Id,colon,comma,unsignedInt,add,sub,period
+			case Start:
 				if ( Character.isLetter(c) )
 					return State.Id;
 				else if (c == ':')
@@ -103,6 +104,7 @@ public class lex extends IO {
 						return State.Id;
 				else 
 					return State.UNDEF;
+
 			case unsignedInt:
 				if(Character.isDigit(c))
 					return State.unsignedInt;
@@ -250,14 +252,12 @@ public class lex extends IO {
 		    case "fcmpge":
 			    stateThatGetsReturned = State.fcmpge;
 				break;
-			case "Goto":
 			case "goto":
 				stateThatGetsReturned = State.Goto;
 				break;
 			case "invoke":
 				stateThatGetsReturned = State.invoke;
 				break;
-			case "Return":
 			case "return":
 				stateThatGetsReturned = State.Return;
 				break;
