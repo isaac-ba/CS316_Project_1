@@ -26,5 +26,7 @@ EBNF:
 
 
 DFA:
+![alt text](http://picasso.cs.qc.cuny.edu/cs316/DFA-VM.svg)
+
 
 # Java
