@@ -26,7 +26,7 @@ EBNF:
 
 
 DFA:
-![alt text](/Users/yitz/Desktop/DFA.png)
+[DFA.png]
 
 
 # Java
