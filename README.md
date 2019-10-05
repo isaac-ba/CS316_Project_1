@@ -1,33 +1,26 @@
-CS 316 : Principles of Progrmaming Languages 
+<b>CS 316 : Principles of Progrmaming Languages </b>
+<hr>
 
 Project 1: Lexical Analyzer 
-
-EBNF: 
-
-⟨digit⟩ → 0 | 1 | ... | 9
-
-⟨unsigned int⟩ → {⟨digit⟩}+
-
-⟨signed int⟩ → (+|−) {⟨digit⟩}+
-
-⟨float⟩ → [+|−] ( {⟨digit⟩}+ "." {⟨digit⟩} | "." {⟨digit⟩}+ )
-
-⟨floatE⟩ → ⟨float⟩ (e|E) [+|−] {⟨digit⟩}+
-
-⟨instruction name⟩ → "iconst" | "iload" | "istore" | "fconst" | "fload" | "fstore" |
-                                    "iadd" | "isub" | "imul" | "idiv" | "fadd" | "fsub" | "fmul" | "fdiv" |
-                                    "intToFloat" |
-                                    "icmpeq" | "icmpne" | "icmplt" | "icmple" | "icmpgt" | "icmpge" |
-                                    "fcmpeq" | "fcmpne" | "fcmplt" | "fcmple" | "fcmpgt" | "fcmpge" |
-                                    "goto" | "invoke" | "return" | "ireturn" | "freturn" | "print"
-⟨colon⟩ → ":"
-
-⟨comma⟩ → ","
+<hr>
+<b>EBNF:</b> <br>
+⟨digit⟩ → 0 | 1 | ... | 9<br>
+⟨unsigned int⟩ → {⟨digit⟩}+<br>
+⟨signed int⟩ → (+|−) {⟨digit⟩}+<br>
+⟨float⟩ → [+|−] ( {⟨digit⟩}+ "." {⟨digit⟩} | "." {⟨digit⟩}+ )<br>
+⟨floatE⟩ → ⟨float⟩ (e|E) [+|−] {⟨digit⟩}+<br>
+⟨instruction name⟩ → "iconst" | "iload" | "istore" | "fconst" | "fload" | "fstore" |<br>
+     "iadd" | "isub" | "imul" | "idiv" | "fadd" | "fsub" | "fmul" | "fdiv" |
+     <br>"intToFloat" |
+     <br> "icmpeq" | "icmpne" | "icmplt" | "icmple" | "icmpgt" | "icmpge" |
+	  <br>"fcmpeq" | "fcmpne" | "fcmplt" | "fcmple" | "fcmpgt" | "fcmpge" |
+       <br>"goto" | "invoke" | "return" | "ireturn" | "freturn" | "print"<br>
+⟨colon⟩ → ":"<br>
+⟨comma⟩ → ","<br><br>
 
 
-DFA:
-<img src="https://raw.githubusercontent.com/isaac-ba/Lexical_Analyzer/master/DFA.png">
+<b>DFA:</b>
 <img src="https://github.com/isaac-ba/Lexical_Analyzer/blob/master/DFA.png">
-
-
+<br><br>
+<hr>
 # Java
