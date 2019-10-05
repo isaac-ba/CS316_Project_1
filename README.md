@@ -26,7 +26,8 @@ EBNF:
 
 
 DFA:
-![alt text](http://picasso.cs.qc.cuny.edu/cs316/DFA-VM.svg)
-
+<p align="center">
+  <img src="http://picasso.cs.qc.cuny.edu/cs316/DFA-VM.svg" width="500" alt="accessibility text">
+</p>
 
 # Java
